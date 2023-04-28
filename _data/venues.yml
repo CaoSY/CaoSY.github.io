@@ -2,5 +2,21 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b12221"
+
 "PhysRev":
   url: https://journals.aps.org/
+
+"PhysRevD":
+  url: https://journals.aps.org/prd/
+  color: "#487e8f"
+
+"Opt. Express":
+  url: https://opg.optica.org/oe/home.cfm
+  color: "#7607c6"
+
+"ChinPhysLett":
+  url: http://cpl.iphy.ac.cn/EN/0256-307X/current.shtml
+  color: "#c93837"
