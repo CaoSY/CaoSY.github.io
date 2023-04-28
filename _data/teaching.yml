@@ -1,0 +1,46 @@
+- institution: University of Pittsburgh
+  course:
+  - course_name: From Stonehenge To Hubble
+    course_code: ASTRON 0088
+    instructor: Carles Badenes
+    instructor_url: https://carlesbadenes.github.io/
+    semesters:
+      - term: Spring
+        year: 2023
+        role: Grader
+    
+  - course_name: Introduction to Laboratory Physics
+    course_code: PHYS 0212
+    instructor: Russell J. Clark
+    instructor_url: https://www.physicsandastronomy.pitt.edu/people/russell-j-clark
+    semesters:
+      - term: Fall
+        year: 2022
+        role: Lead Lab TA
+      - term: Spring
+        year: 2022
+        role: Lab TA
+      - term: Fall
+        year: 2021
+        role: Lab TA
+      - term: Spring
+        year: 2021
+        role: Lab TA
+      - term: Fall
+        year: 2020
+        role: Lab TA
+      - term: Spring
+        year: 2020
+        role: Lab TA
+      - term: Fall
+        year: 2019
+        role: Lab TA
+      
+  - course_name: Introduction to Physics 1
+    course_code: PHYS 0110
+    instructor: Matteo Broccio
+    instructor_url: https://www.physicsandastronomy.pitt.edu/people/matteo-broccio
+    semesters:
+      - term: Summer
+        year: 2021
+        role: Recitation TA
