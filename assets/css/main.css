@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #B71C1C;
+  --global-hover-color: #B71C1C;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -100,6 +100,11 @@ body.sticky-bottom-footer {
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+.lang-cn {
+  font-family: "STFangSong", sans-serif;
+  color: var(--global-text-color);
+}
+
 p,
 h1,
 h2,
@@ -571,15 +576,17 @@ footer.sticky-bottom {
   font-weight: bolder;
 }
 .publications ol.bibliography li .author a {
-  border-bottom: 1px dashed var(--global-theme-color);
+  border-bottom: 1px dashed var(--global-text-color);
+  color: var(--global-text-color);
 }
 .publications ol.bibliography li .author a:hover {
   border-bottom-style: solid;
   text-decoration: none;
 }
 .publications ol.bibliography li .author > em {
-  border-bottom: 1px solid;
   font-style: normal;
+  font-weight: bolder;
+  color: var(--global-theme-color);
 }
 .publications ol.bibliography li .author > span.more-authors {
   color: var(--global-text-color-light);
@@ -612,9 +619,15 @@ footer.sticky-bottom {
   height: 100%;
   padding-right: 0.5rem;
   vertical-align: middle;
+  /*The badge is a link element and appears inside a span element.
+  Some badge is empty but the span remains and occupies some space.
+  This style hides the span completely when the badge is empty.*/
 }
 .publications ol.bibliography li .badges span:hover {
   text-decoration: underline;
+}
+.publications ol.bibliography li .badges span:empty {
+  display: none;
 }
 .publications ol.bibliography li .hidden {
   font-size: 0.875rem;
