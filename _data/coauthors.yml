@@ -2,26 +2,33 @@
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Boyanovsky":
-  - firstname: ["Daniel"]
-    url: https://www.physicsandastronomy.pitt.edu/people/daniel-boyanovsky
+"Podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"Chen":
-  - firstname: ["Xuzong"]
-    url: https://iqe.pku.edu.cn/english/people/staff/xuzong_chen_02/index.htm
+"Rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Guo":
-  - firstname: ["Xinxin"]
-    url: https://www.researchgate.net/profile/Guo-Xinxin
+"Bach": 
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-"Tang":
-  - firstname: ["Pengju"]
-    url: https://scholar.google.com/citations?user=zANHv14AAAAJ
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"Zhang":
-  - firstname: ["Wei"]
-    url: http://www.phys.ruc.edu.cn/info/1167/1513.htm
+"Przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-"Zhou":
-  - firstname: ["Xiaoji", "Xiao-Ji"]
-    url: https://ele.pku.edu.cn/info/1049/1246.htm
+"Schrödinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+
+"Lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+
+"Planck":
+  - firstname: ["Max"]
+    url: https://en.wikipedia.org/wiki/Max_Planck
