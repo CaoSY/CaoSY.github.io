@@ -2,12 +2,6 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Chinese Font
-.lang-cn {
-  font-family: "STFangSong", sans-serif;
-  color: var(--global-text-color);
-}
-
 // Typography
 
 p,
@@ -30,14 +24,13 @@ hr {
 }
 
 table {
-
   td,
   th {
-    color: var(--global-text-color);
+    font-size: 1rem;
   }
 
-  td {
-    font-size: 1rem;
+  th {
+    font-weight: bold;
   }
 }
 
@@ -53,6 +46,10 @@ table.table a {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
+}
+
+.table-dark {
+  background-color: transparent;
 }
 
 figure,
@@ -618,8 +615,8 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-text-color); // Shuyang, black dashed underline for author names with links
-          color: var(--global-text-color);  // Shuyang
+          border-bottom: 1px dashed var(--global-theme-color);
+
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
@@ -627,10 +624,8 @@ footer.sticky-bottom {
         }
 
         >em {
-          // border-bottom: 1px solid; // commented out by Shuyang, no solid line under the name of myself
+          border-bottom: 1px solid;
           font-style: normal;
-          font-weight: bolder;  // Shuyang
-          color: var(--global-theme-color); // Shuyang
         }
 
         >span.more-authors {
@@ -673,12 +668,6 @@ footer.sticky-bottom {
 
           &:hover {
             text-decoration: underline;
-          }
-          /*The badge is a link element and appears inside a span element.
-          Some badge is empty but the span remains and occupies some space.
-          This style hides the span completely when the badge is empty.*/
-          &:empty {
-            display: none;
           }
         }
       }
@@ -791,6 +780,10 @@ html.transition *:after {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
+
+      p {
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -863,8 +856,8 @@ progress::-moz-progress-bar {
     font-size: medium;
     opacity: 0;
     position: absolute;
-    right: .15rem;
-    top: .15rem;
+    right: .5rem;
+    top: .5rem;
   }
 
   &:active .copy,
@@ -875,6 +868,54 @@ progress::-moz-progress-bar {
   }
 }
 
+.btn-group.dropdown {
+  .btn {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .btn-secondary.dropdown-toggle {
+    border: 1px solid var(--global-divider-color);
+
+    .page-size {
+      color: inherit;
+    }
+
+    &:not(.active) {
+      background-color: var(--global-bg-color) !important;
+      color: var(--global-text-color);
+    }
+
+    &:hover {
+      background-color: var(--global-hover-color) !important;
+      color: var(--global-hover-text-color) !important;
+    }
+  }
+
+  .dropdown-menu {
+    background-color: var(--global-bg-color);
+  }
+
+  .dropdown-item {
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+
+  .dropdown-item.active, .dropdown-item:active {
+    background-color: var(--global-hover-color);
+    color: var(--global-hover-text-color) !important;
+
+    &:hover {
+      color: var(--global-hover-text-color);
+    }
+  }
+}
+
+/* Table of Contents */
 nav[data-toggle="toc"] {
   top: 5rem;
 
@@ -911,5 +952,47 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
+  }
+}
+
+/* Tips, warnings, and dangers blockquotes */
+.post .post-content blockquote {
+  &.block-tip {
+    border-color: var(--global-tip-block);
+    background-color: var(--global-tip-block-bg);
+
+    p {
+      color: var(--global-tip-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-tip-block-title);
+    }
+  }
+
+  &.block-warning {
+    border-color: var(--global-warning-block);
+    background-color: var(--global-warning-block-bg);
+
+    p {
+      color: var(--global-warning-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-warning-block-title);
+    }
+  }
+
+  &.block-danger {
+    border-color: var(--global-danger-block);
+    background-color: var(--global-danger-block-bg);
+
+    p {
+      color: var(--global-danger-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-danger-block-title);
+    }
   }
 }
