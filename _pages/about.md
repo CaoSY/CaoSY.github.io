@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Shuyang Cao (曹书阳 in Chinese). I am a PhD student in the Department of Physics & Astronomy at University of Pittsburgh, advised by Professorsp [Adam K Leibovich](https://www.physicsandastronomy.pitt.edu/people/adam-k-leibovich) and [Daniel Boyanovsky](https://www.physicsandastronomy.pitt.edu/people/daniel-boyanovsky).
+My name is Shuyang Cao (曹书阳 in Chinese). I am a PhD student in the Department of Physics & Astronomy at University of Pittsburgh, advised by Professors [Adam K Leibovich](https://www.physicsandastronomy.pitt.edu/people/adam-k-leibovich) and [Daniel Boyanovsky](https://www.physicsandastronomy.pitt.edu/people/daniel-boyanovsky).
 
 My research interests lie within nonequilibrium dynamics in both cosmology and condensed matter physics. I use nonequilibrium dynamics to explore a broad range of physics aspects while other methods are also adopted when needed, such as quantum optics, topological physics. A wide spectrum of properties is studied in this exploration, for example, thermalization, decoherence, entropy production, energy-matter transport, entanglement and so on. My recent projects investigate nonequilibrium evolution of axion electrodynamics, field mixing in vacuum and thermal background, and binary coalescence related to gravitational waves.
 
