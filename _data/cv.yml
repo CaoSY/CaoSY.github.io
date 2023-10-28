@@ -18,7 +18,7 @@
         - Field Mixing in Early Universe
     - title: Gravitatonal Waves
       items:
-        - Tail effect in binary coalescence
+        - Memory effect in binary coalescence
 
 - title: Education
   type: time_table
@@ -39,3 +39,14 @@
     - title: B.S. in Electronic and Information Science and Technology
       institution: Peking University
       year: 2014 - 2018
+
+- title: Awards
+  type: time_table
+  contents:
+    - title: Andrew W. Mellon Predoctoral Fellow
+      year: 2023 - 2024
+      institution: University of Pittsburgh
+    - title: Dietrich School of Arts and Sciences Summer Fellowship
+      year: Summer. 2020
+      institution: University of Pittsburgh
+      department: Dietrich School of Arts and Sciences
