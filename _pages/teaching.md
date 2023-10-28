@@ -1,0 +1,8 @@
+---
+layout: teaching
+permalink: /teaching/
+title: teaching
+description: Here is a list of courses that I am TAing/TA’ed.
+nav: true
+nav_order: 5
+---

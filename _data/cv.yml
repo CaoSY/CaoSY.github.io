@@ -1,0 +1,41 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Shuyang Cao (曹书阳)
+    - name: Contact
+      value: shuyang.cao [at] pitt [at] edu
+    - name: Languages
+      value: Chinese (native), English (fluent)
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Nonequilibrium Manby-Body Physics
+      items: 
+        - Axion-like particles as Dark matter in the Universe
+        - Axion Electrodynamics in condensed matter
+        - Field Mixing in Early Universe
+    - title: Gravitatonal Waves
+      items:
+        - Tail effect in binary coalescence
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Physics
+      institution: University of Pittsburgh
+      year: 2019 - present
+      description:
+      #  - Description 1.
+      #  - Description 2.
+      #  - title: Description 3.
+      #    contents:
+      #      - Sub-description 1.
+      #      - Sub-description 2.
+    - title: M.S. in Physics
+      institution: University of Pittsburgh
+      year: 2019 - 2020
+    - title: B.S. in Electronic and Information Science and Technology
+      institution: Peking University
+      year: 2014 - 2018
