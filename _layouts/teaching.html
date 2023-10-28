@@ -26,7 +26,7 @@ layout: page
     -->
     <ul class="card-text font-weight-light list-group list-group-flush border-top">
         {% for semester_entry in course_entry.semesters %}
-        <li class="list-group-item">
+        <li class="list-group-item" style="background-color: var(--global-card-bg-color);border-color: var(--global-divider-color);">
             <div class="row">
                 <div class="col-2 text-right">{{ semester_entry.term }}</div>
                 <div class="col-2">{{ semester_entry.year }}</div>
