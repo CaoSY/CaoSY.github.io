@@ -2,6 +2,12 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Chinese Font
+.lang-cn {
+  font-family: "STFangSong", sans-serif;
+  color: var(--global-text-color);
+}
+
 // Typography
 
 p,
@@ -698,8 +704,8 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
-
+          border-bottom: 1px dashed var(--global-text-color); // Shuyang, black dashed underline for author names with links
+          color: var(--global-text-color);  // Shuyang
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
@@ -707,8 +713,10 @@ footer.sticky-bottom {
         }
 
         >em {
-          border-bottom: 1px solid;
+          // border-bottom: 1px solid; // commented out by Shuyang, no solid line under the name of myself
           font-style: normal;
+          font-weight: bolder;  // Shuyang
+          color: var(--global-theme-color); // Shuyang
         }
 
         >span.more-authors {
@@ -751,6 +759,12 @@ footer.sticky-bottom {
 
           &:hover {
             text-decoration: underline;
+          }
+          /*The badge is a link element and appears inside a span element.
+          Some badge is empty but the span remains and occupies some space.
+          This style hides the span completely when the badge is empty. -- ShuyangCao*/
+          &:empty {
+            display: none;
           }
         }
       }

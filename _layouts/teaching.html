@@ -1,0 +1,41 @@
+---
+layout: page
+---
+<!-- _layouts/teaching.html -->
+
+{% for institution_entry in site.data.teaching %}
+<h3 class="mt-4">{{ institution_entry.institution }}</h3>
+    {% for course_entry in institution_entry.course %}
+    <div class="card mt-3">
+    <div class="p-3">
+    <div class="row">
+        <div class="col-sm-10">
+            <h5 class="font-weight-bold">{{ course_entry.course_name }}</h5>
+        </div>
+        <div class="col-sm-2 text-left text-sm-right">
+            <span class="badge font-weight-bold text-uppercase align-middle" style="background-color: var(--global-theme-color);">{{ course_entry.course_code }}</span>
+        </div>
+    </div>
+    <h6 class="font-italic mt-2 mt-sm-0">{{ course_entry.course_name }} is taught by Prof. <a href="{{course_entry.instructor_url}}">{{ course_entry.instructor }}</a>.</h6>
+    <!--
+    <ul class="card-text font-weight-light list-group list-group-flush border-top">
+        {% for semester_entry in course_entry.semesters %}
+        <li class="list-group-item"><span style="display:inline-block; width:20em">{{ semester_entry.term }}:</span> {{ semester_entry.role }}</li>
+        {% endfor %}
+    </ul>
+    -->
+    <ul class="card-text font-weight-light list-group list-group-flush border-top">
+        {% for semester_entry in course_entry.semesters %}
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-2 text-right">{{ semester_entry.term }}</div>
+                <div class="col-2">{{ semester_entry.year }}</div>
+                <div class="col-6">{{ semester_entry.role }}</div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    </div>
+    </div>
+    {% endfor %}
+{% endfor %}
