@@ -1,6 +1,22 @@
+"Herring":
+  - firstname: ["Nathan"]
+    url: https://inspirehep.net/authors/2541092
+
 "Boyanovsky":
   - firstname: ["Daniel"]
     url: https://www.physicsandastronomy.pitt.edu/people/daniel-boyanovsky
+
+"Hu":
+  - firstname: ["Dong"]
+    url: https://www.researchgate.net/scientific-contributions/Dong-Hu-2071567844
+
+"Zou":
+  - firstname: ["Xinhao", "Xin-Hao"]
+    url: https://scholar.google.com/citations?user=nHea9fMAAAAJ
+
+"Niu":
+  - firstname: ["Linxiao", "Lin-Xiao"]
+    url: https://www.researchgate.net/scientific-contributions/Lin-Xiaolinxiao-Niuniu-2035529870
 
 "Chen":
   - firstname: ["Xuzong"]
