@@ -20,3 +20,7 @@
 "ChinPhysLett":
   url: http://cpl.iphy.ac.cn/EN/0256-307X/current.shtml
   color: "#c93837"
+
+"JHEP":
+  url: https://link.springer.com/journal/13130
+  color: "#ffd242"
